@@ -1,11 +1,11 @@
-package com.example;
+package com.moneyclickmode;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
-public interface ExampleConfig extends Config
+@ConfigGroup("money-click-mode")
+public interface MoneyClickModeConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",

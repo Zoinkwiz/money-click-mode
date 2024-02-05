@@ -1,13 +1,13 @@
-package com.example;
+package com.moneyclickmode;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class MoneyClickModePluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(MoneyClickModePlugin.class);
 		RuneLite.main(args);
 	}
 }
